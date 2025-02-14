@@ -16,7 +16,7 @@ public class JogoAdivinhacao   {
         boolean jogadorDoisEstaCerto = false;
         boolean jogadorTresEstaCerto = false;
 
-        int palpiteNumero = (int)(Math.random()*10);// multiplica os numero ate 10 para verificar o palpite da maquina
+        int palpiteNumero = (int)(Math.random()*10);// multiplica os numero ate 10 para verificar o palpite da maquina s
         System.out.println("Estou pensando em um numero de 0 a 9...");
 
         while (true){
