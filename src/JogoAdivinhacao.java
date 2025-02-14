@@ -19,7 +19,7 @@ public class JogoAdivinhacao   {
         int palpiteNumero = (int)(Math.random()*10);// a maquina verifica aleatoriamente os numero de 0 a 9
         System.out.println("Estou pensando em um numero de 0 a 9...");
 
-        //inicio do laço de repetição até verificar se um jogador acertou
+        //inicio do laço de repetição até verificar se um jogador acertou.
         while (true){
             System.out.println("O numero que estou adivinhando é " + palpiteNumero);//palpite da maquina
             // chama a classe Jogador para verificar qual numero os jogadores estão pensando
